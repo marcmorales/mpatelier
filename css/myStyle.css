@@ -1,38 +1,103 @@
+html, body {
+    font-family: helvetica, sans-serif;
+}
+/*
+///////
+HEADER
+///////
+*/
 header {
     background: #6633ff;
     height: 10vh;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     align-items: center;
 }
 header > div {
     background: #3333ff;
     width: 10%;
     height: 70%;
+    font-size: 2vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     border: 0.1em solid #ff33ff;
     border-radius: 0.5em;
 }
+header > div:hover {
+    background: #3366ff;
+}
+/*
+///////
+NAV
+///////
+*/
 nav {
     background: #9933ff;
     height: 10vh;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    display: inline-block;
+    height: 10vh;
+    width: 25%;
+    
+}
+nav li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+nav li a:hover {
+    background: #aa33ff;
+}
+/*
+///////
+SECTION
+///////
+*/
 section {
     background: #cc33ff;
     height: 34vh;
     width: 70%;
 }
+/*
+///////
+ASIDE
+///////
+*/
 aside {
     background: #ff33ff;
     height: 68vh;
     float: right;
     width: 30%;
 }
+/*
+///////
+ARTICLE
+///////
+*/
 article {
     background: #ff33cc;
     height: 34vh;
     width: 70%;
 }
+/*
+///////
+FOOTER
+///////
+*/
 footer {
     background: #ff3399;
     height: 10vh;
