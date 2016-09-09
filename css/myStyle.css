@@ -1,0 +1,40 @@
+header {
+    background: #6633ff;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header > div {
+    background: #3333ff;
+    width: 10%;
+    height: 70%;
+    border: 0.1em solid #ff33ff;
+    border-radius: 0.5em;
+}
+nav {
+    background: #9933ff;
+    height: 10vh;
+}
+section {
+    background: #cc33ff;
+    height: 34vh;
+    width: 70%;
+}
+aside {
+    background: #ff33ff;
+    height: 68vh;
+    float: right;
+    width: 30%;
+}
+article {
+    background: #ff33cc;
+    height: 34vh;
+    width: 70%;
+}
+footer {
+    background: #ff3399;
+    height: 10vh;
+    clear: right;
+}
